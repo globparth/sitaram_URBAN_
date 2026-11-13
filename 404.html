@@ -931,6 +931,23 @@ html[lang="mr"] .el-next small{letter-spacing:0;font-size:14px;text-transform:no
 @media(max-width:900px){.el-info{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.el-info{grid-template-columns:1fr}.el-dl .btn{width:100%;justify-content:center}}
 
+/* newspaper notices */
+.np-wrap{margin-top:30px}
+.np-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.np-head b{font-family:var(--head);font-size:22px}
+.np-head span{color:var(--muted);font-size:14px}
+.np-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.np{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s}
+.np:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.np-img{display:block;position:relative;height:420px;background:#efe9de;overflow:hidden}
+.np-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transition:opacity .5s}
+.np-img img.ok{opacity:1}
+.np-cap{display:block;padding:16px 18px}
+.np-cap b{display:block;font-size:16px}
+.np-cap span{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+.np-cap em{display:inline-block;font-style:normal;color:var(--gold);font-weight:600;font-size:14px;margin-top:8px}
+@media(max-width:700px){.np-grid{grid-template-columns:1fr}.np-img{height:360px}}
+
 :root{--navy:#0e3b2c;--navy-2:#14503c;--navy-3:#07241b}.slide::after{background:linear-gradient(90deg,rgba(5,28,20,.9) 0%,rgba(5,28,20,.62) 48%,rgba(5,28,20,.15) 100%),linear-gradient(0deg,rgba(5,28,20,.7),transparent 45%)}.banner::after{background:linear-gradient(90deg,rgba(5,28,20,.92),rgba(5,28,20,.55))}.cta::after{background:linear-gradient(90deg,rgba(5,28,20,.95),rgba(5,28,20,.7))}
 </style>
 </head>
