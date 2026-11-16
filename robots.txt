@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://globparth.github.io/sitaram_sugars/sitemap.xml
+Sitemap: https://sitaramurban.com/sitemap.xml

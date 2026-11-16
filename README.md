@@ -1,6 +1,6 @@
 # Shri Sadguru Sitaram Maharaj Urban Co-op. Credit Society Ltd.
 
-Bilingual (मराठी / English) website. Live: https://globparth.github.io/sitaram_sugars/
+Bilingual (मराठी / English) website. Live: https://sitaramurban.com/
 
 ## Pages (each has its own URL, title, description, canonical and structured data)
 - `/` — Shri Sadguru Sitaram Maharaj Urban Co-op Credit Society, Mangalwedha
@@ -22,6 +22,6 @@ Bilingual (मराठी / English) website. Live: https://globparth.github.io
 Run `./set-domain.sh https://www.yourdomain.com`, commit, then add the domain in GitHub → Settings → Pages.
 
 ## Google Search Console
-1. Add the property for https://globparth.github.io/sitaram_sugars/ (URL-prefix).
+1. Add the property for https://sitaramurban.com/ (URL-prefix).
 2. Verify with the HTML tag (paste it where the comment says in each page head) or with an uploaded HTML file.
-3. Submit `https://globparth.github.io/sitaram_sugars/sitemap.xml`.
+3. Submit `https://sitaramurban.com/sitemap.xml`.
